@@ -25,7 +25,7 @@ describe('Scrabble', () => {
     expect(score('street')).toEqual(6);
   });
 
-  xtest('medium, valuable word', () => {
+  test('medium, valuable word', () => {
     expect(score('quirky')).toEqual(22);
   });
 
