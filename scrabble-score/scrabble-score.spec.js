@@ -37,7 +37,7 @@ describe('Scrabble', () => {
     expect(score('pinata')).toEqual(8);
   });
 
-  xtest('empty input', () => {
+  test('empty input', () => {
     expect(score('')).toEqual(0);
   });
 
