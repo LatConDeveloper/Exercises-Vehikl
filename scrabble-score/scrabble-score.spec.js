@@ -33,7 +33,7 @@ describe('Scrabble', () => {
     expect(score('OxyphenButazone')).toEqual(41);
   });
 
-  xtest('english-like word', () => {
+  test('english-like word', () => {
     expect(score('pinata')).toEqual(8);
   });
 
