@@ -39,6 +39,6 @@ export const score = (text) => {
   for (const textElement of text) {
     sum += VALUE_TABLE[textElement.toUpperCase()]
   }
-
+  console.log("sum", sum);
   return sum;
 };
