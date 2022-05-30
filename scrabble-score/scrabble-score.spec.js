@@ -41,7 +41,7 @@ describe('Scrabble', () => {
     expect(score('')).toEqual(0);
   });
 
-  xtest('entire alphabet available', () => {
+  test('entire alphabet available', () => {
     expect(score('abcdefghijklmnopqrstuvwxyz')).toEqual(87);
   });
 });
