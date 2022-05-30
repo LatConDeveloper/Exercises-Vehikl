@@ -32,13 +32,10 @@ const VALUE_TABLE = {
   Z:10
 }
 
-
-
 export const score = (text) => {
   let sum = 0;
   for (const textElement of text) {
     sum += VALUE_TABLE[textElement.toUpperCase()]
   }
-  console.log("sum", sum);
   return sum;
 };
