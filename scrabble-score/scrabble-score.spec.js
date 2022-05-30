@@ -17,7 +17,7 @@ describe('Scrabble', () => {
     expect(score('at')).toEqual(2);
   });
 
-  xtest('short, valuable word', () => {
+  test('short, valuable word', () => {
     expect(score('zoo')).toEqual(12);
   });
 
