@@ -29,7 +29,7 @@ describe('Scrabble', () => {
     expect(score('quirky')).toEqual(22);
   });
 
-  xtest('long, mixed-case word', () => {
+  test('long, mixed-case word', () => {
     expect(score('OxyphenButazone')).toEqual(41);
   });
 
