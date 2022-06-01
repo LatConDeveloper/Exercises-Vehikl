@@ -59,7 +59,7 @@ describe('Grains', () => {
       expect(square(64).toString()).toEqual('9223372036854775808');
     });
 
-    xtest('square 0 raises an exception', () => {
+    test('square 0 raises an exception', () => {
       expect(() => square(0)).toThrow(
         new Error('square must be between 1 and 64')
       );
