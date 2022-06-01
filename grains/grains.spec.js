@@ -55,7 +55,7 @@ describe('Grains', () => {
       expect(square(32).toString()).toEqual('2147483648');
     });
 
-    xtest('grains on square 64', () => {
+    test('grains on square 64', () => {
       expect(square(64).toString()).toEqual('9223372036854775808');
     });
 

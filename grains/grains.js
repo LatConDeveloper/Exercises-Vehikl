@@ -11,7 +11,7 @@
 //
 const NUM_BASE = 2;
 export const square = (position) => {
-  return Math.pow(NUM_BASE, (position-1));
+  return BigInt(Math.pow(NUM_BASE, (position-1)));
 };
 
 export const total = () => {
