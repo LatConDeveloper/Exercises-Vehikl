@@ -11,7 +11,7 @@
 //
 const NUM_BASE = 2;
 export const square = (position) => {
-  if (position <= 0  ) {
+  if ( 0 >= position || position >=65  ) {
     throw new Error('square must be between 1 and 64');
   }
 
