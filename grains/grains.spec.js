@@ -39,7 +39,7 @@ describe('Grains', () => {
       expect(square(2).toString()).toEqual('2');
     });
 
-    xtest('grains on square 3', () => {
+    test('grains on square 3', () => {
       expect(square(3).toString()).toEqual('4');
     });
 
