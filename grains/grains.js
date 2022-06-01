@@ -11,9 +11,10 @@
 //
 const NUM_BASE = 2;
 export const square = (position) => {
-  if (position === 0) {
+  if (position <= 0  ) {
     throw new Error('square must be between 1 and 64');
   }
+
   return BigInt(Math.pow(NUM_BASE, (position-1)));
 };
 

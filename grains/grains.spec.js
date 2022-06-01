@@ -65,7 +65,7 @@ describe('Grains', () => {
       );
     });
 
-    xtest('negative square raises an exception', () => {
+    test('negative square raises an exception', () => {
       expect(() => square(-1)).toThrow(
         new Error('square must be between 1 and 64')
       );
