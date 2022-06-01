@@ -9,9 +9,9 @@
 // This is only a SKELETON file for the 'Grains' exercise. It's been provided as a
 // convenience to get you started writing code faster.
 //
-    //const NUM_BASE
+const NUM_BASE = 2;
 export const square = (position) => {
-  throw new Error('Remove this statement and implement this function');
+  return Math.pow(NUM_BASE, (position-1));
 };
 
 export const total = () => {
