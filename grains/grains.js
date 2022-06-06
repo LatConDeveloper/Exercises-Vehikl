@@ -10,6 +10,8 @@
 // convenience to get you started writing code faster.
 //
 const NUM_BASE = 2;
+const TOTAL = 64;
+
 export const square = (position) => {
   if ( 0 >= position || position >=65  ) {
     throw new Error('square must be between 1 and 64');
@@ -19,5 +21,10 @@ export const square = (position) => {
 };
 
 export const total = () => {
-  throw new Error('Remove this statement and implement this function');
+  let sum = BigInt(0);
+  for ( let i = 1 ; i <= TOTAL ; i++) {
+    sum += square(i);
+  }
+
+  return BigInt(sum);
 };

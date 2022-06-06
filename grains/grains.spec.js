@@ -78,7 +78,7 @@ describe('Grains', () => {
     });
   });
 
-  xtest('returns the total number of grains on the board', () => {
+  test('returns the total number of grains on the board', () => {
     expect(total().toString()).toEqual('18446744073709551615');
   });
 });
